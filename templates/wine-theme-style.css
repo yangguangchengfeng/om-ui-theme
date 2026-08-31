@@ -1,0 +1,38 @@
+/**
+ * 德贝风：主色 #94243a。
+ * 通过 html[data-theme="wine"] 启用，与科技风切换。
+ */
+html[data-theme='wine'] {
+  --bg: #f7f1f2;
+  --panel: #ffffff;
+  --panel-2: #f3e6e9;
+  --line: #e5d0d4;
+  --line-strong: #d4b8bd;
+  --ink: #2a1418;
+  --mute: #6b5358;
+  --text-3: #8f7a7e;
+  --navy: #4a1520;
+  --navy-mid: #5c1d2a;
+  --navy-deep: #2a0c12;
+  --accent: #94243a;
+  --accent-2: #c44a62;
+  --accent-soft: rgba(148, 36, 58, 0.12);
+  --name: #94243a;
+  --lack: #d63b4a;
+  --on-accent: #ffffff;
+  --table-head-ink: #6a4a50;
+  --disabled-bg: #f5f5f5;
+  --disabled-ink: rgba(0, 0, 0, 0.35);
+  --input-bg: #ffffff;
+  --input-border: #d4b8bd;
+  --input-ring: rgba(148, 36, 58, 0.16);
+  --btn-shadow: 0 4px 12px rgba(148, 36, 58, 0.28);
+  --rail-shadow: 0 2px 8px rgba(148, 36, 58, 0.08);
+  --row-hover: #faf0f2;
+  --shadow: 0 4px 18px rgba(74, 21, 32, 0.08);
+  --kicker: #e8b4bc;
+  --login-glow: rgba(196, 74, 98, 0.42);
+  --login-grad-start: #2a0c12;
+  --login-grad-mid: #4a1520;
+  --login-grad-end: #94243a;
+}

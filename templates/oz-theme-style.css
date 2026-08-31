@@ -1,0 +1,38 @@
+/**
+ * 绿野风（绿野仙踪）：翡翠城主色 + 黄砖点缀。
+ * 通过 html[data-theme="oz"] 启用。
+ */
+html[data-theme='oz'] {
+  --bg: #eaf3e4;
+  --panel: #ffffff;
+  --panel-2: #e3eed8;
+  --line: #c5d6b8;
+  --line-strong: #a8c498;
+  --ink: #1a2e22;
+  --mute: #5a6e5e;
+  --text-3: #7a8c7c;
+  --navy: #0a3d2a;
+  --navy-mid: #0f4f36;
+  --navy-deep: #062418;
+  --accent: #147a4e;
+  --accent-2: #d4a017;
+  --accent-soft: rgba(20, 122, 78, 0.12);
+  --name: #147a4e;
+  --lack: #c41e3a;
+  --on-accent: #ffffff;
+  --table-head-ink: #3d5c48;
+  --disabled-bg: #f5f5f5;
+  --disabled-ink: rgba(0, 0, 0, 0.35);
+  --input-bg: #ffffff;
+  --input-border: #a8c498;
+  --input-ring: rgba(20, 122, 78, 0.16);
+  --btn-shadow: 0 4px 12px rgba(20, 122, 78, 0.28);
+  --rail-shadow: 0 2px 8px rgba(10, 61, 42, 0.08);
+  --row-hover: #eef6e6;
+  --shadow: 0 4px 18px rgba(10, 61, 42, 0.08);
+  --kicker: #e8c547;
+  --login-glow: rgba(212, 160, 23, 0.42);
+  --login-grad-start: #062418;
+  --login-grad-mid: #0a3d2a;
+  --login-grad-end: #147a4e;
+}

@@ -1,0 +1,174 @@
+/**
+ * 暗黑风：炭黑台面 + 暖铜 #E08B4D。
+ * 通过 html[data-theme="night"] 启用。
+ */
+html[data-theme='night'] {
+  color-scheme: dark;
+  --bg: #0c0b0a;
+  --panel: #141210;
+  --panel-2: #1c1916;
+  --line: #2e2924;
+  --line-strong: #3d362f;
+  --ink: #f0e6d8;
+  --mute: #a89888;
+  --text-3: #7a6e64;
+  --navy: #080706;
+  --navy-mid: #100e0c;
+  --navy-deep: #050504;
+  --accent: #e08b4d;
+  --accent-2: #f0b07a;
+  --accent-soft: rgba(224, 139, 77, 0.18);
+  --name: #e08b4d;
+  --lack: #e85d5d;
+  --on-accent: #1a120c;
+  --table-head-ink: #c4b4a4;
+  --disabled-bg: #1a1714;
+  --disabled-ink: rgba(240, 230, 216, 0.35);
+  --input-bg: #141210;
+  --input-border: #3d362f;
+  --input-ring: rgba(224, 139, 77, 0.28);
+  --btn-shadow: 0 4px 14px rgba(224, 139, 77, 0.28);
+  --rail-shadow: 0 2px 8px rgba(0, 0, 0, 0.28);
+  --row-hover: #3a2c1e;
+  --shadow: 0 8px 28px rgba(0, 0, 0, 0.5);
+  --kicker: #d4b896;
+  --login-glow: rgba(224, 139, 77, 0.38);
+  --login-grad-start: #050504;
+  --login-grad-mid: #120e0c;
+  --login-grad-end: #5c341c;
+}
+
+html[data-theme='night'] .ant-table,
+html[data-theme='night'] .ant-table-container,
+html[data-theme='night'] .ant-table-content,
+html[data-theme='night'] .ant-table-header,
+html[data-theme='night'] .ant-table-body,
+html[data-theme='night'] .ant-table-tbody > tr > td,
+html[data-theme='night'] .ant-table-cell-fix-left,
+html[data-theme='night'] .ant-table-cell-fix-right {
+  background: var(--panel) !important;
+  color: var(--ink);
+}
+
+html[data-theme='night'] .ant-table-tbody > tr:hover > td,
+html[data-theme='night'] .ant-table-tbody > tr.ant-table-row:hover > td,
+html[data-theme='night'] .ant-table-tbody > tr:hover > .ant-table-cell-fix-left,
+html[data-theme='night'] .ant-table-tbody > tr:hover > .ant-table-cell-fix-right,
+html[data-theme='night'] .ant-table-tbody > tr > td.ant-table-cell-row-hover {
+  background: var(--row-hover) !important;
+}
+
+html[data-theme='night'] .ant-pagination-item,
+html[data-theme='night'] .ant-pagination-prev .ant-pagination-item-link,
+html[data-theme='night'] .ant-pagination-next .ant-pagination-item-link,
+html[data-theme='night'] .ant-pagination-options .ant-select-selector {
+  background: var(--panel-2) !important;
+  border-color: var(--line) !important;
+  color: var(--ink) !important;
+}
+
+html[data-theme='night'] .ant-pagination-item a,
+html[data-theme='night'] .ant-pagination-item-link,
+html[data-theme='night'] .ant-pagination-options-quick-jumper,
+html[data-theme='night'] .ant-pagination-total-text {
+  color: var(--ink) !important;
+}
+
+html[data-theme='night'] .ant-select-dropdown,
+html[data-theme='night'] .ant-dropdown .ant-dropdown-menu,
+html[data-theme='night'] .ant-picker-dropdown .ant-picker-panel-container,
+html[data-theme='night'] .ant-message-notice-content,
+html[data-theme='night'] .ant-modal-content,
+html[data-theme='night'] .ant-drawer-content,
+html[data-theme='night'] .ant-popover-inner,
+html[data-theme='night'] .ant-tooltip-inner {
+  background: var(--panel) !important;
+  color: var(--ink);
+}
+
+html[data-theme='night'] .ant-select-item {
+  color: var(--ink);
+}
+
+html[data-theme='night'] .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  background: var(--accent-soft) !important;
+}
+
+html[data-theme='night'] .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+  background: var(--row-hover) !important;
+}
+
+html[data-theme='night'] .ant-empty-description,
+html[data-theme='night'] .ant-form-item-label > label,
+html[data-theme='night'] .ant-steps-item-title,
+html[data-theme='night'] .ant-drawer-title,
+html[data-theme='night'] .ant-modal-title {
+  color: var(--ink) !important;
+}
+
+html[data-theme='night'] .ant-btn-default {
+  background: var(--panel-2) !important;
+  color: var(--ink) !important;
+  border-color: var(--line) !important;
+}
+
+html[data-theme='night'] .ant-btn-primary {
+  color: var(--on-accent) !important;
+}
+
+html[data-theme='night'] .ant-input::placeholder,
+html[data-theme='night'] .ant-input-affix-wrapper input::placeholder,
+html[data-theme='night'] .ant-select-selection-placeholder {
+  color: var(--text-3) !important;
+}
+
+html[data-theme='night'] .ant-input,
+html[data-theme='night'] .ant-input-affix-wrapper,
+html[data-theme='night'] .ant-select-selector,
+html[data-theme='night'] .ant-picker {
+  color: var(--ink) !important;
+}
+
+html[data-theme='night'] .ant-input-password-icon,
+html[data-theme='night'] .ant-select-arrow,
+html[data-theme='night'] .ant-picker-suffix {
+  color: var(--mute) !important;
+}
+
+html[data-theme='night'] .ant-checkbox-inner,
+html[data-theme='night'] .ant-radio-inner {
+  background: var(--input-bg) !important;
+  border-color: var(--line-strong) !important;
+}
+
+html[data-theme='night'] .ant-steps-item-wait .ant-steps-item-icon {
+  background: var(--panel-2) !important;
+  border-color: var(--line) !important;
+}
+
+html[data-theme='night'] .ant-tabs-tab {
+  color: var(--mute);
+}
+
+html[data-theme='night'] .ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: var(--accent) !important;
+}
+
+html[data-theme='night'] ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+html[data-theme='night'] ::-webkit-scrollbar-thumb {
+  background: #4a423a;
+  border-radius: 8px;
+}
+
+html[data-theme='night'] ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html[data-theme='night'] .captcha-btn,
+html[data-theme='night'] .captcha-img {
+  background: #fff;
+}
